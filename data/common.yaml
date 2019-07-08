@@ -1,0 +1,11 @@
+---
+couchbase::version: '6.0.0'
+couchbase::package_ensure: 'present'
+cauchbase::package_name: 'couchbase'
+couchbase::config_dir: '/opt/couchbase'
+couchbase::source_installer: '/tmp'
+couchbase::package_provider: 'rpm'
+couchbase::user_privilages: 'couchbase'
+couchbase::group_privilages: 'couchbase'
+couchbase::user_privilages_id: 9999
+couchbase::group_privilages_id: 9999
